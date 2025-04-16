@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Vue Basics",
+      "description": "Learn the fundamentals of Vue.js including reactivity, components, and directives.",
+      "image": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "id": 2,
+      "name": "Pinia State Management",
+      "description": "An introduction to managing state in Vue using Pinia.",
+      "image": "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+      "id": 3,
+      "name": "Vue Router",
+      "description": "Learn how to create multi-page experiences in a single page application using Vue Router.",
+      "image": "https://picsum.photos/200/300?grayscale"
+    }, {
+      "id": 4,
+      "name": "Random",
+      "description": "Learn how to create multi-page experiences in a single page application using Vue Router.",
+      "image": "https://picsum.photos/200/300?random="
+    }
+  ]
+  

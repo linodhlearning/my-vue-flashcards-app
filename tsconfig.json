@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "strict": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["vite/client"],
+    // "removeComments": true,
+    //"preserveConstEnums": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      //"~/*": ["src/*"],
+       "@/*": ["./src/*"],
+      "tests/*": ["tests/*"],
+      "mocks/*": ["__mocks__/*"]
+    },
+    "lib": ["esnext", "dom", "DOM.Iterable", "ScriptHost"],
+    "verbatimModuleSyntax": false
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "test/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  //"files": [],
+  // "references": [
+  //   { "path": "./tsconfig.app.json" },
+  //   { "path": "./tsconfig.node.json" }
+  // ]
+}
